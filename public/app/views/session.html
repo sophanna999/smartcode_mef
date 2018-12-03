@@ -1,0 +1,33 @@
+<div id="custom-modal">
+    <div id="overlay">
+        <button type="button" class="close" ng-click="close()" data-dismiss="modal" aria-hidden="true">x</button>
+        <strong class="modal-title" style="padding-bottom: 10px;font-family: 'KHMERMEF2';font-size: 18px;">ការភ្ជាប់របស់អ្នកបានផុតកំណត់ហើយ</strong>
+        <p></p>
+        <p>ដើម្បីបង្កើនសុវត្ថិភាពលើគេហទំព័រនេះការភ្ជាប់នឹងផុតកំណត់បន្ទាប់ពីអសកម្ម 120 នាទី</p>
+    </div>
+
+    <a href="" ng-click="close()">Close</a>
+    <div id="fade"></div>
+</div>
+<style>
+    #overlay {
+        position: fixed;
+        left: 35%;
+        top: 20%;
+        width: 40%;
+        height: auto;
+        z-index: 100;
+        background: #f2f2f2;
+        font-family: 'KHMERMEF1';
+    }
+    #fade{
+        opacity: 1 !important;
+        background: #B3C488 !important;
+    }
+    .close{
+        font-size: 20px !important;
+        font-weight: bold;
+        font-family: 'KHMERMEF1';
+    }
+
+</style>

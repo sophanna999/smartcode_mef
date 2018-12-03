@@ -1,0 +1,7 @@
+factory(App\Models\BackEnd\Capacity\Location::class,20)->create()->each(function($q) { 
+    return factory(App\Models\BackEnd\Capacity\Room::class,1)->create(['location_id' => $q->id ])->id;
+});
+
+factory(App\Models\BackEnd\Capacity\Subject::class,20)->create();
+
+factory(App\Models\BackEnd\Capacity\Course::class,20)->create()->each(function($q) use ($subject) { $q->subject()->save($subject);  } );

@@ -1,0 +1,27 @@
+<?php
+return array(
+    'MEF_DEPARTMENT' 			=> 'mef_department',
+	'MEF_ROLE' 					=> 'mef_role',
+	'MEF_AUTHENTICATE' 			=> 'mef_authenticate',
+	'MEF_USER' 					=> 'mef_user',
+	'MEF_CONFIG' 				=> 'mef_config',
+	'MEF_AUTHENTICATE_TO_ROLE' 	=> 'mef_autenticate_to_role',
+	'MEF_POSITION' 				=> 'mef_position',
+	'MEF_ATENDEE' 				=> 'mef_atendee',
+	'MEF_MEETING_ASSIGN' 		=> 'mef_meeting_assign',
+	'MEF_MEETING_DETAIL' 		=> 'mef_meeting_detail',
+	'MEF_MEETING' 				=> 'mef_meeting',
+	'MEF_MEETING_LEADER' 		=> 'mef_meeting_leader',
+	'MEF_MEETING_TYPE' 			=> 'mef_meeting_type',
+	'MEF_MEETING_LOCATION'		=> 'mef_meeting_location',
+	'MEF_MEETING_ATENDEE_JOIN'	=> 'mef_meeting_atendee_join',
+	'MEF_MISSION'				=> 'mef_mission',
+	'MEF_MISSION_TO_ATENDEE'	=> 'mef_mission_to_atendee',
+	'MEF_PROGRAM_TYPE'			=> 'mef_mission_program_type',
+	'MEF_MISSION_CATEGORY'		=> 'mef_mission_category',
+	'MEF_USER_ACTIVITIES'		=> 'mef_user_activity',
+	'MEF_PEOPLE_TITLE'			=> 'mef_people_title',
+	'MEF_USER_DETAIL'			=> 'mef_user_detail',
+	'MEF_MEETING_TYPE'			=> 'mef_meeting_type',
+	
+);
